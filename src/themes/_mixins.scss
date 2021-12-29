@@ -1,0 +1,45 @@
+// @mixin generateSpacing($prefix, $property) {
+//     $sizes: (0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5);
+//     $spacing: 1rem;
+//     @for $i from 1 through length($sizes) {
+//         $size: nth($sizes, $i);
+//         .#{$prefix}#{$i - 1} {
+//             #{$property}: $spacing * $size;
+//         }
+//     }
+// }
+
+@mixin generateWH($prefix, $property) {
+    @for $i from 0 through 200 {
+        .#{$prefix}-#{$i} {
+            #{$property}: $i / 16#{em};
+        }
+    }
+}
+
+@mixin generateRadius($prefix) {
+    @for $i from 0 through 25 {
+        .#{$prefix}-#{$i} {
+            @include radius($i#{px}!important);
+        }
+    }
+}
+
+@mixin radius($val) {
+    border-radius: $val;
+    -webkit-border-radius: $val;
+    -moz-border-radius: $val;
+}
+
+@mixin transition($val) {
+    -webkit-transition: $val;
+    -moz-transition: $val;
+    -ms-transition: $val;
+    -o-transition: $val;
+    transition: $val;
+}
+
+@mixin shadow($val) {
+    -webkit-box-shadow: $val;
+    box-shadow: $val;
+}
