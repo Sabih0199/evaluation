@@ -1,0 +1,18 @@
+@import "../../themes/variables";
+@import "../../themes/functions";
+@import "../../themes/mixins";
+
+.ev-about {
+    .ev-about-header {
+        background-color: $grayNormal;
+        padding: 6.5px 21px 6.5px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        font-size: 18px;
+    }
+    .ev-about-content {
+        background-color: $white;
+        font-size: 13px;
+        padding: 16px 21px 17px;
+    }
+}

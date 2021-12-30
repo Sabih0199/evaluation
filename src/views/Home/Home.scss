@@ -1,0 +1,9 @@
+@import "../../themes/variables";
+@import "../../themes/functions";
+@import "../../themes/mixins";
+
+.ev-home {
+    .ev-about {
+        margin-top: em(24);
+    }
+}
