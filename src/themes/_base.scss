@@ -7,11 +7,18 @@
 body {
     font-family: "Oxygen", sans-serif;
     color: $black;
+    background-color: $gray;
 }
 
 .objfit-cover {
     object-fit: cover;
 }
+
+@include generateWH("evw", "width");
+
+@include generateWH("evh", "height");
+
+@include generateRadius("radius");
 
 // $spacing: (
 //     (ml, margin-left),
@@ -27,12 +34,6 @@ body {
 // @each $item in $spacing {
 //     @include generateSpacing(nth($item, 1), nth($item, 2));
 // }
-
-@include generateWH("evw", "width");
-
-@include generateWH("evh", "height");
-
-@include generateRadius("radius");
 
 @media screen and (max-width: 991px) {
 }

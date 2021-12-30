@@ -1,0 +1,10 @@
+@import "../../themes/variables";
+@import "../../themes/functions";
+@import "../../themes/mixins";
+
+.ev-actionbar {
+    margin-top: em(20);
+    .ev-searchbox {
+        margin-right: em(27);
+    }
+}
