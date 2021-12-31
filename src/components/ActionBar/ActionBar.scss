@@ -8,3 +8,11 @@
         margin-right: em(27);
     }
 }
+
+@media screen and (max-width: 767px) {
+    .ev-actionbar {
+        .ev-searchbox {
+            margin-right: 0;
+        }
+    }
+}

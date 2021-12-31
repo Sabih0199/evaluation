@@ -15,7 +15,7 @@ const UserRoles = (props) => {
     const { className = "", } = props
     return (
         <div className={`ev-user-roles d-flex flex-column justify-content-between ${className}`}>
-            <div className="d-flex justify-content-between ev-user-roles-top-panel">
+            <div className="d-flex justify-content-between ev-user-roles-top-panel flex-md-row flex-column">
                 <div className="ev-user-roles-wrap">
                     <div className="ev-user-roles-header fw-bold text-center">
                         Available Roles
@@ -86,7 +86,7 @@ const UserRoles = (props) => {
                         counter="2"
                     />
                 </div>
-                <div className="align-self-center d-flex flex-column">
+                <div className="align-self-center d-flex flex-column ev-user-role-btns">
                     <Button title={
                         <Fragment>
                             Assign <img src={arrow} className="img-fluid" />
@@ -143,13 +143,14 @@ const UserRoles = (props) => {
                     />
                 </div>
             </div>
-            <div className="ev-user-roles-actions d-flex align-items-center justify-content-end">
+            <div className="ev-user-roles-actions d-flex align-items-center justify-content-end flex-md-row flex-column">
                 <Button title="Cancel"
                     size="md"
                     secondary={true}
                 />
                 <Button title="Update"
                     size="md"
+                    className="mt-md-0 mt-2"
                 />
             </div>
         </div >
