@@ -14,17 +14,17 @@ const TabsPanel = (props) => {
         <div className={`ev-tabspanel ${className}`}>
             <Nav tabs>
                 <NavItem>
-                    <NavLink className={tabMain == '1' ? 'active' : ''} onClick={() => setTabMain('1')}>
+                    <NavLink className={tabMain === '1' ? 'active' : ''} onClick={() => setTabMain('1')}>
                         Basic information
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className={tabMain == '2' ? 'active' : ''} onClick={() => setTabMain('2')}>
+                    <NavLink className={tabMain === '2' ? 'active' : ''} onClick={() => setTabMain('2')}>
                         Users
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className={tabMain == '3' ? 'active' : ''} onClick={() => setTabMain('3')}>
+                    <NavLink className={tabMain === '3' ? 'active' : ''} onClick={() => setTabMain('3')}>
                         Notes
                     </NavLink>
                 </NavItem>
@@ -39,17 +39,17 @@ const TabsPanel = (props) => {
                         <Col lg={8} className="mt-4">
                             <Nav tabs>
                                 <NavItem>
-                                    <NavLink className={tabInner == '1' ? 'active' : ''} onClick={() => setTabInner('1')}>
+                                    <NavLink className={tabInner === '1' ? 'active' : ''} onClick={() => setTabInner('1')}>
                                         User details
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className={tabInner == '2' ? 'active' : ''} onClick={() => setTabInner('2')}>
+                                    <NavLink className={tabInner === '2' ? 'active' : ''} onClick={() => setTabInner('2')}>
                                         Roles
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className={tabInner == '3' ? 'active' : ''} onClick={() => setTabInner('3')}>
+                                    <NavLink className={tabInner === '3' ? 'active' : ''} onClick={() => setTabInner('3')}>
                                         Other association
                                     </NavLink>
                                 </NavItem>
