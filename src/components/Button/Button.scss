@@ -3,7 +3,9 @@
 @import "../../themes/mixins";
 
 .ev-btn {
-    font-size: 13px;
+    &:not(&-sm) {
+        font-size: 13px;
+    }
     &-primary {
         @include shadow(0px 1px 2.85px 0.15px rgba(0, 0, 0, 0.1));
         @include transition(none);
@@ -37,5 +39,11 @@
         @include radius(17px);
         min-width: 125px;
         min-height: 34px;
+    }
+    &-sm {
+        font-size: 13px;
+        @include radius(14px);
+        min-width: 88px;
+        min-height: 20px;
     }
 }

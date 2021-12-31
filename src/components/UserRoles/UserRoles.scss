@@ -1,0 +1,45 @@
+@import "../../themes/variables";
+@import "../../themes/functions";
+@import "../../themes/mixins";
+
+.ev-user-roles {
+    .ev-user-roles-top-panel {
+        padding: 21px 23px;
+    }
+    min-height: em(599);
+    border: 1px solid $creamExtraLight;
+    border-top: none;
+    .ev-user-roles-wrap {
+        align-self: flex-start;
+        border: 1px solid $grayNormalExtraLight;
+        .ev-user-roles-header {
+            &:not(.bg-clr-inverse) {
+                background-color: $grayDark;
+                color: $white;
+            }
+            &.bg-clr-inverse {
+                background-color: $creamDark;
+            }
+            font-size: 14px;
+            padding: 11px 10px;
+        }
+        .ev-accordion-tab {
+            .ev-accordion-tab-content {
+                img {
+                    margin-right: em(11);
+                }
+            }
+        }
+    }
+    .ev-user-roles-actions {
+        min-height: em(64);
+        padding: 14px 32px;
+        background-color: $creamDark;
+        .ev-btn-secondary {
+            margin-right: em(7);
+        }
+    }
+    .ev-arrow-left {
+        transform: scale(-1);
+    }
+}

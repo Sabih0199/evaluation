@@ -1,0 +1,33 @@
+@import "../../themes/variables";
+@import "../../themes/functions";
+@import "../../themes/mixins";
+
+.ev-accordion-tab {
+    font-size: 12px;
+    .ev-accordion-tab-header {
+        cursor: pointer;
+        background-color: $cream;
+        padding: 7px 8px 4px 7px;
+        .ev-accordion-counter {
+            margin-right: em(11);
+            width: 19px;
+            height: 19px;
+            @include radius(50%);
+            background-color: $grayDark;
+        }
+        .ev-accordion-tab-title {
+            margin-right: em(10);
+        }
+    }
+    .ev-accordion-tab-content {
+        background-color: $creamNormal;
+        overflow: hidden;
+        padding: 7px 8px 4px 7px;
+    }
+    &.active {
+        .ev-accordion-tab-header {
+            background-color: $grayNormal;
+            color: $white;
+        }
+    }
+}

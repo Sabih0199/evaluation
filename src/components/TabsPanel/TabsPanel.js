@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Nav, NavItem, NavLink, TabContent, TabPane, Row, Col } from "reactstrap"
 
 import { UserInvite } from "../UserInvite"
+import { UserRoles } from "../UserRoles"
 
 import "./TabsPanel.scss";
 
@@ -57,7 +58,7 @@ const TabsPanel = (props) => {
                             <TabContent activeTab={tabInner}>
                                 <TabPane tabId="1">User details Content</TabPane>
                                 <TabPane tabId="2">
-                                    User Drag &amp; Drop
+                                    <UserRoles />
                                 </TabPane>
                                 <TabPane tabId="3">Roles Content</TabPane>
                             </TabContent>
