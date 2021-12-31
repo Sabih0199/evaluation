@@ -55,19 +55,19 @@ const UserRoles = (props) => {
                         content={
                             <Fragment>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
+                                    <img src={info} className="img-fluid ev-arrow-left" />
                                     View Data
                                 </div>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
+                                    <img src={info} className="img-fluid ev-arrow-left" />
                                     Manage Data
                                 </div>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
+                                    <img src={info} className="img-fluid ev-arrow-left" />
                                     View Data
                                 </div>
                                 <div>
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
+                                    <img src={info} className="img-fluid ev-arrow-left" />
                                     Manage Data
                                 </div>
                             </Fragment>
