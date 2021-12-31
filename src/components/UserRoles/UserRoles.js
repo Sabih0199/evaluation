@@ -25,19 +25,19 @@ const UserRoles = (props) => {
                         content={
                             <Fragment>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     View Data
                                 </div>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     Manage Data
                                 </div>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     View Data
                                 </div>
                                 <div>
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     Manage Data
                                 </div>
                             </Fragment>
@@ -55,19 +55,19 @@ const UserRoles = (props) => {
                         content={
                             <Fragment>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     View Data
                                 </div>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     Manage Data
                                 </div>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     View Data
                                 </div>
                                 <div>
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     Manage Data
                                 </div>
                             </Fragment>
@@ -113,11 +113,11 @@ const UserRoles = (props) => {
                         content={
                             <Fragment>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     View Data
                                 </div>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" alt="" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     Manage Data
                                 </div>
                             </Fragment>
