@@ -5,7 +5,7 @@ import { Avatar } from "../Avatar"
 
 import "./TopNavbar.scss";
 
-import userAlpha from "../../../src/assets/images/user-alpha.png"
+import userAlpha from "../../../src/assets/images/user-1.png"
 
 const TopNavbar = (props) => {
     const { className = "" } = props;

@@ -1,0 +1,28 @@
+@import "../../themes/variables";
+@import "../../themes/functions";
+@import "../../themes/mixins";
+
+.ev-tabspanel {
+    margin-top: em(15);
+    border: 1px solid $grayExtraLight;
+    padding: 10px 19px 16px 12px;
+    background-color: $white;
+    .nav-tabs {
+        .nav-item {
+            .nav-link {
+                font-size: em(15);
+                font-weight: bold;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                color: $bluePrimary;
+                border-top-width: 4px;
+                border-top-style: solid;
+                cursor: pointer;
+                &.active,
+                &:hover {
+                    border-top-color: $bluePrimary;
+                }
+            }
+        }
+    }
+}

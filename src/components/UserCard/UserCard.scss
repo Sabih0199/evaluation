@@ -1,0 +1,31 @@
+@import "../../themes/variables";
+@import "../../themes/functions";
+@import "../../themes/mixins";
+
+.ev-user-card {
+    cursor: pointer;
+    background-color: $cream;
+    padding: 8px 10px 7px;
+    .ev-user-details {
+        margin-left: em(14);
+        .ev-user-name {
+            font-size: 14px;
+        }
+        .ev-user-email {
+            font-size: 12px;
+            color: $creamLight;
+        }
+    }
+    &.active,
+    &:hover {
+        background-color: $grayNormal;
+        .ev-user-details {
+            .ev-user-name {
+                color: $white;
+            }
+        }
+        .envelop-icon {
+            filter: brightness(0) invert(1);
+        }
+    }
+}
