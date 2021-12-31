@@ -27,7 +27,7 @@ const AccordionTab = (props) => {
                 </div>
                 {isOpen ?
                     ""
-                    : <img src={arrowThick} className="img-fluid ms-auto" />}
+                    : <img src={arrowThick} className="img-fluid ms-auto" alt="arrow thick" />}
             </div>
             <Collapse isOpen={isOpen}>
                 <div className="ev-accordion-tab-content">{content}</div>

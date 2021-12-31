@@ -55,19 +55,19 @@ const UserRoles = (props) => {
                         content={
                             <Fragment>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     View Data
                                 </div>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     Manage Data
                                 </div>
                                 <div className="mb-2">
-                                    <img src={info} className="img-fluid ev-arrow-left" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     View Data
                                 </div>
                                 <div>
-                                    <img src={info} className="img-fluid ev-arrow-left" />
+                                    <img src={info} className="img-fluid ev-arrow-left" alt="arrow" />
                                     Manage Data
                                 </div>
                             </Fragment>
@@ -89,14 +89,14 @@ const UserRoles = (props) => {
                 <div className="align-self-center d-flex flex-column ev-user-role-btns">
                     <Button title={
                         <Fragment>
-                            Assign <img src={arrow} className="img-fluid" />
+                            Assign <img src={arrow} className="img-fluid" alt="arrow" />
                         </Fragment>
                     }
                         size="sm"
                     />
                     <Button title={
                         <Fragment>
-                            <img src={arrow} className="img-fluid ev-arrow-left" /> Rescind
+                            <img src={arrow} className="img-fluid ev-arrow-left" alt="arrow" /> Rescind
                         </Fragment>
                     }
                         size="sm"
